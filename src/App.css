@@ -1,38 +1,99 @@
 .App {
-  text-align: center;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Title{
+float: top;
+transition: .3s background-color;
+margin-right: 100px;
+}
+.Bar{
+  display: block;
+transition: .3s background-color;
+margin-right: 100px;
+}
+nav{
+  background-color: black;
+  height: 50px;
+  margin-top: 0;
+  color: white !important;
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul {
+  list-style: none;
+  display: inline-flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+nav a {
+text-decoration: none;
+color: white;
+display: block;
+transition: .3s background-color;
+margin-right: 100px;
 }
 
-.App-link {
-  color: #61dafb;
+.New{
+  border: solid black;
+  width: 950px;
+  display: inline-block;
+  height: 500px;
+  margin: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Inter{
+  border: solid black;
+  width: 325px;
+  display: inline-block;
+  height: 500px;
+  margin: 25px;
+  
+}
+.Para1{
+  border: solid black;
+  width: 950px;
+  display: inline-block;
+  height: 250px;
+  margin: 25px;
+}
+
+.Life{
+  border: solid black;
+  width: 325px;
+  display: inline-block;
+  height: 250px;
+  margin: 25px;
+}
+
+.Most{
+  align-self: center;
+  border: solid black;
+  width: 94%;
+  height: 250px;
+  display: inline-block;
+  margin: 25px;
+}
+
+.World{
+  align-self: center;
+  border: solid black;
+  width: 94%;
+  height: 275px;
+  display: inline-block;
+  margin: 25px;
+}
+
+.Editor{
+  border: solid black;
+  width: 325px;
+  display: inline-block;
+  height: 850px;
+  margin: 25px;
+}
+.Para2{
+  border: solid black;
+  width: 950px;
+  display: inline-block;
+  height: 250px;
+  margin: 25px;
 }
