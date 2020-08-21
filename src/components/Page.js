@@ -42,7 +42,7 @@ const Dashboard = () => {
             <h5>Decemeber 4th, 2019</h5>
         </div>
 
-        <div>
+        <div className="Latest">
             <h2>Fashion Photgraphers</h2>
         </div>
 
