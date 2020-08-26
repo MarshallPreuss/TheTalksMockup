@@ -6,8 +6,14 @@ const Dashboard = () => {
     
     <div className="Parent">
         <Nav />
-        <div className="New">
-            <h2>New Interview</h2>
+        <div>
+            <div>
+                <h2 className="InterTitle">New Interview</h2>
+                <div className="New">
+
+                </div>
+            </div>
+            
         </div>
 
         <div className="Inter">
@@ -32,8 +38,10 @@ const Dashboard = () => {
             </table>
         </div>
 
-        <div className="Para1">
+        <div>
+            
             <h5>December 11, 2019</h5>
+            <div className="Para1">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas
              maecenas pharetra convallis posuere morbi leo. Sem fringilla 
@@ -50,14 +58,19 @@ const Dashboard = () => {
             tincidunt augue interdum velit euismod in pellentesque. 
             Auctor neque vitae tempus quam pellentesque nec. 
             Turpis egestas sed tempus urna et.</p>
+            </div>
         </div>
 
-        <div className="Life">
+        <div>
             <h5>Life</h5>
+            <div className="Life">
+
+            </div>
         </div>
 
-        <div className="Most">
+        <div>
             <h2>Most Read Interviews</h2>
+            <div className="Most">
             <div className="Mostread1">
 
             </div>
@@ -67,22 +80,33 @@ const Dashboard = () => {
             <div className="Mostread3">
 
             </div>
+            </div>
         </div>
 
-        <div className="World">
+        <div>
             <h2>World Guide</h2>
+            <div className="World">
+                
+            </div>
         </div>
 
-        <div  className="New2">
+        <div>
             <h2>Last Weeks Interview</h2>
+            <div className="New2">
+
+            </div>
         </div>
 
-        <div className="Editor">
+        <div>
             <h2>Editors Picks</h2>
+            <div className="Editor">
+
+            </div>
         </div>
 
-        <div className="Para2">
+        <div>
             <h5>Decemeber 4th, 2019</h5>
+            <div className="Para2">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas
              maecenas pharetra convallis posuere morbi leo. Sem fringilla 
@@ -99,10 +123,14 @@ const Dashboard = () => {
             tincidunt augue interdum velit euismod in pellentesque. 
             Auctor neque vitae tempus quam pellentesque nec. 
             Turpis egestas sed tempus urna et.</p>
+            </div>
         </div>
 
-        <div className="Latest">
+        <div>
             <h2>Fashion Photgraphers</h2>
+            <div className="Latest">
+                
+            </div>
         </div>
 
     </div>
