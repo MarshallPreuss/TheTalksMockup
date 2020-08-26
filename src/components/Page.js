@@ -4,7 +4,7 @@ import Nav from './Nav'
 const Dashboard = () => {
     return(
     
-    <div>
+    <div className="Parent">
         <Nav />
         <div className="New">
             <h2>New Interview</h2>
