@@ -62,7 +62,6 @@ margin-right: 100px;
 .Section{
   display: inline-block;
   margin: 4px;
-  background-color: lightgray;
 }
 
 .New{
@@ -207,23 +206,27 @@ margin-right: 100px;
   height: 200px;
   width: 300px;
   background-size: 400px 200px;
-  margin: 20px;
+  margin: 10px;
 }
 
 .EditorsPick2{
-  background-image: url(./Images/AngLee.png);
+  background-image: url(./Images/Bjork.png);
   height: 200px;
   width: 300px;
   background-size: 400px 200px;
-  margin: 20px;
+  margin: 10px;
 }
 
 .EditorsPick3{
-  background-image: url(./Images/AngLee.png);
+  background-image: url(./Images/FlyingLotus.png);
   height: 200px;
   width: 300px;
   background-size: 400px 200px;
-  margin: 20px;
+  margin: 10px;
+}
+
+.Names{
+  margin: 10px;
 }
 
 td{

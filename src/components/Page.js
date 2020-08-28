@@ -82,12 +82,15 @@ const Dashboard = () => {
             <div className="Mostread1">
 
             </div>
+            {/* <h4 className="Names">Alicia Keys</h4> */}
             <div className="Mostread2">
 
             </div>
+            {/* <h4 className="Names">Chilly Gonzalwa</h4> */}
             <div className="Mostread3">
 
             </div>
+            {/* <h4 className="Names">Kevin Kline</h4> */}
             </div>
         </div>
 
@@ -110,17 +113,17 @@ const Dashboard = () => {
             <div className="Editor">
 
             <div className="EditorsPick1">
-
+                
             </div>
-
+            <h4 className="Names">Ang Lee</h4>
             <div className="EditorsPick2">
-
+              
             </div>
-
+            <h4 className="Names">Bjork</h4>
             <div className="EditorsPick3">
-
+                
             </div>
-
+            <h4 className="Names">Flying Lotus</h4>
             </div>
         </div>
 
