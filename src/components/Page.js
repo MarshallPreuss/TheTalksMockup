@@ -6,18 +6,18 @@ const Dashboard = () => {
     
     <div className="Parent">
         <Nav />
-        <div>
-            <div>
-                <h2 className="InterTitle">New Interview</h2>
-                <div className="New">
-
-                </div>
+    <div className="Content">        
+        <div className="Section">
+            <h2 className="InterTitle">New Interview</h2>
+            <div className="New">
             </div>
-            
         </div>
-
+            
+        <div className="Section">
+            {/* <h2 className="InterTitle">&nbsp;</h2> */}
+            <h2 className="InterTitle">Interview Directory</h2>
         <div className="Inter">
-            <h2> Interview Directory</h2>
+            
             <table>
                 <tr>
                     <td>Architecture</td>
@@ -37,10 +37,13 @@ const Dashboard = () => {
                 </tr>
             </table>
         </div>
+        </div>
 
-        <div>
+
+
+        <div className="Section">
             
-            <h5>December 11, 2019</h5>
+            <h5 className="InterTitle">December 11, 2019</h5>
             <div className="Para1">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas
@@ -61,15 +64,20 @@ const Dashboard = () => {
             </div>
         </div>
 
-        <div>
-            <h5>Life</h5>
+        <div className="Section">
+            <h5 className="InterTitle">Life</h5>
             <div className="Life">
-
+                <div>
+                    <h3>"I cant make people happy if I am not happy myself. That
+                        applies to anyone who tries to achieve something in their life:
+                        if you are not happy, you cant transfer any happiness to anyone else.""
+                    </h3>
+                </div>
             </div>
         </div>
 
-        <div>
-            <h2>Most Read Interviews</h2>
+        <div className="Section">
+            <h2 className="InterTitle">Most Read Interviews</h2>
             <div className="Most">
             <div className="Mostread1">
 
@@ -83,29 +91,41 @@ const Dashboard = () => {
             </div>
         </div>
 
-        <div>
-            <h2>World Guide</h2>
+        <div className="Section">
+            <h2 className="InterTitle">World Guide</h2>
             <div className="World">
                 
             </div>
         </div>
 
-        <div>
-            <h2>Last Weeks Interview</h2>
+        <div className="Section">
+            <h2 className="InterTitle">Last Weeks Interview</h2>
             <div className="New2">
-
+                
             </div>
         </div>
 
-        <div>
-            <h2>Editors Picks</h2>
+        <div className="Section">
+            <h2 className="InterTitle">Editors Picks</h2>
             <div className="Editor">
 
+            <div className="EditorsPick1">
+
+            </div>
+
+            <div className="EditorsPick2">
+
+            </div>
+
+            <div className="EditorsPick3">
+
+            </div>
+
             </div>
         </div>
 
-        <div>
-            <h5>Decemeber 4th, 2019</h5>
+        <div className="Section">
+            <h5 className="InterTitle">Decemeber 4th, 2019</h5>
             <div className="Para2">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas
@@ -126,13 +146,13 @@ const Dashboard = () => {
             </div>
         </div>
 
-        <div>
-            <h2>Fashion Photgraphers</h2>
+        <div className="Section">
+            <h2 className="InterTitle">Fashion Photgraphers</h2>
             <div className="Latest">
-                
+
             </div>
         </div>
-
+    </div>
     </div>
 
     )

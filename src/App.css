@@ -6,6 +6,8 @@
 float: top;
 transition: .3s background-color;
 margin-right: 100px;
+margin-top: -10px;
+margin-bottom: auto;
 font-style: Bold;
 font-size: 30px;
 }
@@ -20,11 +22,17 @@ nav{
   margin-top: 0;
   color: white !important;
   text-decoration: none;
+  
+}
+
+nav ul li {
+  align-items: center;
 }
 
 ul {
   list-style: none;
   display: inline-flex;
+  vertical-align: top;
 }
 
 nav a {
@@ -36,9 +44,25 @@ margin-right: 100px;
 }
 
 .Parent{
-  display: grid;
+  /* display: grid;
   grid-template-columns: 975px;
-  grid-template-rows: 525px;
+  grid-template-rows: 525px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.Section{
+  display: inline-block;
+  margin: 4px;
+  background-color: lightgray;
 }
 
 .New{
@@ -64,6 +88,8 @@ margin-right: 100px;
 
 .InterTitle{
   background-color: white;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 .Para1{
   border: solid black;
@@ -107,6 +133,7 @@ margin-right: 100px;
   border: solid black;
   width: 325px;
   display: flex;
+  flex-direction: column;
   flex-flow: hidden;
   height: 850px;
   margin: 25px;
@@ -165,6 +192,37 @@ margin-right: 100px;
   flex-flow: hidden;
   background-size: 400px 200px;
   background-image: url(https://the-talks.com/wp-content/uploads/2014/09/Kevin-Kline-01.jpg);
+  margin: 20px;
+}
+
+.World{
+  height: 300px;
+  width: 1376px;
+  background-image: url(./Images/World.png);
+  background-size: 1376px 300px;
+}
+
+.EditorsPick1{
+  background-image: url(./Images/AngLee.png);
+  height: 200px;
+  width: 300px;
+  background-size: 400px 200px;
+  margin: 20px;
+}
+
+.EditorsPick2{
+  background-image: url(./Images/AngLee.png);
+  height: 200px;
+  width: 300px;
+  background-size: 400px 200px;
+  margin: 20px;
+}
+
+.EditorsPick3{
+  background-image: url(./Images/AngLee.png);
+  height: 200px;
+  width: 300px;
+  background-size: 400px 200px;
   margin: 20px;
 }
 
